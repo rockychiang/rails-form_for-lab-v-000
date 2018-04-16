@@ -4,7 +4,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    redirect_to students_path
+    redirect_to student_path(@student)
   end
 
   def show
