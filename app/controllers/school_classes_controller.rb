@@ -4,6 +4,7 @@ class StudentsController < ApplicationController
   end
 
   def create
+    redirect_to students_path
   end
 
   def show
