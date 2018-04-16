@@ -14,6 +14,7 @@ class StudentsController < ApplicationController
   end
 
   def update
+    redirect_to student_path(@student)
   end
 
 end
